@@ -1,5 +1,4 @@
 import React, {useContext} from 'react'
-import {Transaction} from './Transaction'
 import {GlobalContext} from "./GlobalState";
 export const TransactionHolder = ({transaction}) => {
   const { removeTransaction} =useContext(GlobalContext);

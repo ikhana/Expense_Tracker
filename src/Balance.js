@@ -9,7 +9,7 @@ export const Balance = () => {
     return (
         <>
         <h4 className="Mybalance">My Balance</h4>
-    <h1 >PKR {}</h1>
+    <h1 >PKR {total}</h1>
         </>
     )
 };
